@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+import { fadeIn } from "../shared/variants";
 function Pricing() {
   const plans = [
     {
@@ -39,7 +41,13 @@ function Pricing() {
           Here are all our plans
         </h2>
       </div>
-      <div className="grid md:grid-cols-5 sm:grid-cols-3 grid-cols-2 gap-6">
+      <motion.div
+        variants={fadeIn("up", 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.7 }}
+        className="grid md:grid-cols-5 sm:grid-cols-3 grid-cols-2 gap-6"
+      >
         {plans.map((plan, index) => (
           <div
             key={index}
@@ -64,7 +72,7 @@ function Pricing() {
             </div>
           </div>
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 }
