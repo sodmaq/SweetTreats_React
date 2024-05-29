@@ -33,7 +33,7 @@ function Pricing() {
   ];
 
   return (
-    <div className="md:px-14 p-4 max-w-7xl mx-auto py-10">
+    <div className="md:px-14 p-4 max-w-7xl mx-auto py-10" id="pricing">
       <div className="text-center mb-10">
         <h2 className="md:text-5xl text-3xl font-extrabold text-primary mb-2">
           Here are all our plans
