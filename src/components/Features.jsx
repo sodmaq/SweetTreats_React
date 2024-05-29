@@ -9,7 +9,7 @@ function Features() {
         <motion.div
           variants={fadeIn("left", 0.2)}
           initial="hidden"
-          whileInView={"show"}
+          whileInView="show"
           viewport={{ once: false, amount: 0.7 }}
           className="lg:w-1/4"
         >
@@ -24,13 +24,7 @@ function Features() {
           </p>
         </motion.div>
         {/* Feature cards */}
-        <motion.div
-          variants={fadeIn("up", 0.3)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
-          className="w-full lg:w-3/4"
-        >
+        <div>
           <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-start md:gap-12 gap-8">
             <div className="bg-[rgba(255,255,255,0.24)] rounded-[35px] h-96 shadow-3xl p-8 flex justify-center hover:-translate-y-4 transition-all duration-300 cursor-pointer">
               <div>
@@ -57,7 +51,7 @@ function Features() {
               </div>
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   );
