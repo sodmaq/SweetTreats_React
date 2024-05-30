@@ -8,8 +8,8 @@ function Home() {
         banner={banner}
         heading="Adejoke Bliss"
         subheading="Welcome to the online portfolio of Yekini Zainub, a passionate baker, culinary enthusiast, and dedicated marketing student. With a flair for creating delectable cakes, savory small chops, rich cocoa treats, and crispy plantain chips, Yekini Zainub combines her culinary skills with marketing expertise to deliver exceptional products."
-        btn1="Get Started"
-        btn2="Discount"
+        btn1="Contact"
+        btn2="My Cv"
       />
     </div>
   );
