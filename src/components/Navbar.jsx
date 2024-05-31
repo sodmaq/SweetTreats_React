@@ -15,7 +15,7 @@ function Navbar() {
     { link: "Home", path: "home" },
     { link: "Feature", path: "feature" },
     { link: "About", path: "about" },
-    { link: "Pricing", path: "pricing" },
+    { link: "Product", path: "product" },
   ];
 
   return (

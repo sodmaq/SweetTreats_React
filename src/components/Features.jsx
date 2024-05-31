@@ -1,4 +1,8 @@
-import featuredImg from "../assets/featuredImg.png";
+// import featuredImg from "../assets/featuredImg.png";
+import healthy from "../assets/healthy.png";
+import customer from "../assets/customer.png";
+import quality from "../assets/quality.png";
+
 import { motion } from "framer-motion";
 import { fadeIn } from "../shared/variants";
 
@@ -14,13 +18,14 @@ function Features() {
           className="lg:w-1/4"
         >
           <h3 className="text-3xl text-primary font-bold lg:w-1/2 mb-3">
-            We are better than others
+            Why We are The Best Choice
           </h3>
           <p className="text-base text-tertiary">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-            voluptate quia similique autem eum quasi quis quo exercitationem
-            soluta optio eius perspiciatis, odio aperiam doloremque repudiandae
-            explicabo laudantium laborum error.
+            At Adejoke Bliss, our commitment to quality, innovation, and
+            customer satisfaction distinguishes us. We use the finest
+            ingredients, continuously explore new flavors, and prioritize
+            personalized service to exceed your expectations, ensuring every
+            product is exceptional and every experience delightful.
           </p>
         </motion.div>
         {/* Feature cards */}
@@ -28,25 +33,37 @@ function Features() {
           <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-start md:gap-12 gap-8">
             <div className="bg-[rgba(255,255,255,0.24)] rounded-[35px] h-96 shadow-3xl p-8 flex justify-center hover:-translate-y-4 transition-all duration-300 cursor-pointer">
               <div>
-                <img src={featuredImg} alt="Feature 1" />
+                <img
+                  src={quality}
+                  alt="Feature 1"
+                  className="w-40 h-40 object-cover mx-auto"
+                />
                 <h5 className="text-2xl font-semibold text-primary px-5 text-center mt-5">
-                  Convenient study schedule
+                  Exceptional Quality
                 </h5>
               </div>
             </div>
             <div className="bg-[rgba(255,255,255,0.24)] rounded-[35px] h-96 shadow-3xl p-8 flex justify-center hover:-translate-y-4 transition-all duration-300 cursor-pointer md:mt-16">
               <div>
-                <img src={featuredImg} alt="Feature 2" />
+                <img
+                  src={healthy}
+                  alt="Feature 2"
+                  className="w-40 h-40 object-cover mx-auto"
+                />
                 <h5 className="text-2xl font-semibold text-primary px-5 text-center mt-5">
-                  Convenient study schedule
+                  Healthy and Delicious Options
                 </h5>
               </div>
             </div>
             <div className="bg-[rgba(255,255,255,0.24)] rounded-[35px] h-96 shadow-3xl p-8 flex justify-center hover:-translate-y-4 transition-all duration-300 cursor-pointer">
               <div>
-                <img src={featuredImg} alt="Feature 3" />
+                <img
+                  src={customer}
+                  alt="Feature 3"
+                  className="w-40 h-40 object-cover mx-auto"
+                />
                 <h5 className="text-2xl font-semibold text-primary px-5 text-center mt-5">
-                  Convenient study schedule
+                  Customer Satisfaction
                 </h5>
               </div>
             </div>
