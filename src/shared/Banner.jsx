@@ -27,7 +27,14 @@ function Banner({ banner, heading, subheading, btn1, btn2 }) {
           </h2>
           <p className="text-[#EBEBEB] text-2xl mb-8">{subheading}</p>
           <div className="space-x-5 space-y-4">
-            <button className="btnPrimary">{btn1}</button>
+            <a
+              href="https://wa.link/t9ezl3"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btnPrimary">{btn1}</button>
+            </a>
+
             <button className="btnPrimary">{btn2}</button>
           </div>
         </motion.div>
