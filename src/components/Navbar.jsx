@@ -28,7 +28,7 @@ function Navbar() {
               className="text-2xl font-semibold flex items-center space-x-3 text-primary"
             >
               <img src={logo} alt="Logo" className="w-12 h-12 inline-block" />
-              <span>Ajoke</span>
+              <span>AdejokeBliss</span>
             </a>
             <ul className="md:flex space-x-12 hidden">
               {navItems.map(({ link, path }) => (
