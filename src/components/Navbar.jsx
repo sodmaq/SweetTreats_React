@@ -22,7 +22,7 @@ function Navbar() {
     <>
       <nav className="bg-white md:px-14 p-4 max-w-screen-2xl mx-auto border-b text-primary fixed top-0 right-0 left-0 z-50">
         <div className="text-lg container mx-auto flex justify-between items-center font-medium">
-          <div className="flex space-x-14 items-center">
+          <div className="flex space-x-14">
             <a
               href="/"
               className="text-2xl font-semibold flex items-center space-x-3 text-primary"
@@ -30,7 +30,7 @@ function Navbar() {
               <img src={logo} alt="Logo" className="w-12 h-12 inline-block" />
               <span>AdejokeBliss</span>
             </a>
-            <ul className="md:flex space-x-12 hidden">
+            <ul className="md:flex space-x-12 hidden ">
               {navItems.map(({ link, path }) => (
                 <li key={path}>
                   <Link
@@ -50,10 +50,10 @@ function Navbar() {
               href="/"
               className="hidden lg:flex items-center hover:text-primary"
             >
-              <GrLanguage className="mr-2" />
-              Language
+              <GrLanguage className="mr-2 hidden" />
+              {/* Language */}
             </a>
-            <button className="bg-secondary py-2 px-4 transition duration-300 rounded hover:text-white hover:bg-indigo-600">
+            <button className="bg-secondary py-2 px-4 transition duration-300 rounded hover:text-white hover:bg-indigo-600 hidden">
               Buy Now
             </button>
           </div>
