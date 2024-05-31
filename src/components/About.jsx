@@ -40,7 +40,13 @@ function About() {
             ensure your event is memorable and visually captivating, tailored
             perfectly to your theme and style..
           </p>
-          <button className="btnPrimary">Get Started</button>
+          <a
+            href="https://wa.link/t9ezl3"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btnPrimary">Get Started</button>
+          </a>
         </motion.div>
       </div>
 
@@ -73,7 +79,13 @@ function About() {
             is crafted with love and attention to detail, ensuring a delightful
             experience for every palate.
           </p>
-          <button className="btnPrimary">Get Started</button>
+          <a
+            href="https://wa.link/t9ezl3"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btnPrimary">Get Started</button>
+          </a>
         </motion.div>
       </div>
 
@@ -107,7 +119,13 @@ function About() {
             perfectly in place. Relax and enjoy your event or project while we
             manage the logistics and ensure flawless execution.
           </p>
-          <button className="btnPrimary">Get Started</button>
+          <a
+            href="https://wa.link/t9ezl3"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btnPrimary">Get Started</button>
+          </a>
         </motion.div>
       </div>
     </div>
