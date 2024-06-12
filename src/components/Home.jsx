@@ -1,4 +1,4 @@
-import banner from "../assets/banner.png";
+import banner from "../assets/banner.JPG";
 import Banner from "../shared/Banner";
 
 function Home() {
